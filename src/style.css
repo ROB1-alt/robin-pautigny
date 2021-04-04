@@ -12,6 +12,13 @@ html{
     --background : #F1F2F3;
     --light-grey : #505050;
 }
+
+@font-face{
+    font-family: "Vision";
+    src: url(./fonts/Vision-Bold.woff)
+
+}
+
 body{
     background-color: var(--background);
     margin: 0px;
@@ -263,7 +270,7 @@ nav ul li{
     border-radius: 7px;
 }
 .about-img{
-    width: 20%;
+
     height: 90%;
 }
 .dl-text{
@@ -461,7 +468,6 @@ footer p:nth-child(1){
 /*Responsive design of my website*/
 @media(max-width:1400px){
     .about-img{
-        width: 20%;
         height: 90%;
     }
 }
@@ -485,7 +491,7 @@ footer p:nth-child(1){
         border-radius: 10px;
     }
     .about-img{
-        width: 30%;
+        
         height: 90%;
     }
     .about-text{
@@ -700,14 +706,12 @@ footer p:nth-child(1){
 @media (max-width:960px){
     
     .about-img{
-        width: 30%;
         height: 90%;
     }
 }
 
 @media (max-width:984px){
     .about-img{
-        width: 30%;
         height: 90%;
     }
 }
