@@ -173,11 +173,10 @@ nav ul li{
     cursor: pointer;
 }
 .hire-btn:hover{
-    color: var(--main-whiteb);
-    background-color: #000000;
+    color: var(--main-white);
+    background-color: var(--hetic-color);
     border: black;
-    opacity: 0.6;
-    transition: 0.6s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .down-cv{
     background-color: #0b0b0b;
@@ -200,7 +199,7 @@ nav ul li{
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     display: flex;
-    margin: -7% auto 20px auto;
+    margin: -7% auto 60px auto;
     position: relative;
     justify-content: space-evenly;
     align-items: center;
@@ -330,7 +329,6 @@ footer p:nth-child(1){
     line-height: 10px;
 }footer p:nth-child(2){
     font-size: 16px;
-    color: red;
     width: 600px;
     text-align: center;
 }
