@@ -2,6 +2,7 @@
 html{
     scroll-behavior: smooth;
     font-family: 'Poppins';
+    overflow: hidden;
 }
 
 /*SETUP OF THE COLORS*/
