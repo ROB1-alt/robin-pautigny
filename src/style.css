@@ -1,8 +1,11 @@
 /* set the scroll of my page */
+
+
+
 html{
     scroll-behavior: smooth;
-    font-family: 'Poppins';
     overflow: hidden;
+    font-family: 'Clash Display', sans-serif;
 }
 
 /*SETUP OF THE COLORS*/
@@ -14,11 +17,8 @@ html{
     --light-grey : #505050;
 }
 
-@font-face{
-    font-family: "Vision";
-    src: url(./fonts/Vision-Bold.woff)
 
-}
+
 
 body{
     background-color: var(--background);
@@ -106,7 +106,6 @@ nav ul{
 
 .hetic{
     color: var(--hetic-color);
-    font-family: 'Poppins', sans-serif;
 }
 .hetic:hover{
     background-color: var(--main-black);
