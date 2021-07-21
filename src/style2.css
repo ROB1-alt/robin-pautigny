@@ -3,7 +3,7 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    border: 2px solid #000;
+    border: 2px solid #ffffff;
     box-sizing: border-box;
     transition: 0.1s;
     transform: translate(-50%,-50%);
@@ -21,31 +21,21 @@
     justify-content: center;
 }
 
-.ldBar-label {
-    color: #09f;
-    font-family: 'varela round';
-    font-size: 2.5em;
-    font-weight: 900;
-  }
 
-  *,
-::before,
-::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 body {
     height: 100vh;
+    background-color: #000000;
 }
 
+
+/* First slider of the page */
 .container {
   overflow: hidden;
   display: flex;
   /* Fonctionne avec toutes les tailles */
   width: 100%;
   position: absolute;
-  top: 40%;
+  top: 15%;
   transform: translateY(-50%);
   /* pour rotate on enlève le translate et on rajoute le rotate */
   /* transform:  rotate(90deg); */
@@ -58,10 +48,22 @@ body {
 
 .t1 {
   /* color: red; */
+  color: blue;
 }
 .t2 {
   /* color: blue; */
+  color: blue;
 }
+.t3{
+  color: blue;
+}
+.t4{
+  color: blue;
+}
+.t5{
+  color: blue;
+}
+
 @keyframes scrollTxt {
   0%{
     transform: translate(-100%, 0);
@@ -71,32 +73,53 @@ body {
   }
 }
 
+
+/* Second slider of the page */
 .container_other{
   overflow: hidden;
   display: flex;
   /* Fonctionne avec toutes les tailles */
   width: 100%;
   position: absolute;
-  top: 20%;
+  top: 25%;
   transform: translateY(-50%);
   /* pour rotate on enlève le translate et on rajoute le rotate */
   /* transform:  rotate(90deg); */
 }
 
-.txt {
+.txt2 {
   white-space: nowrap;
   font-size: 200px;
   animation: test 4s linear infinite;
 }
 
-.t3 {
+.t12 {
   /* color: red; */
+  color: white;
   font-size: 200px;
   white-space: nowrap;
-  animation: test 4s linear infinite;
 }
-.t4 {
+.t13 {
   /* color: blue; */
+  color: white;
+  font-size: 200px;
+  white-space: nowrap;
+}
+.t14 {
+  /* color: blue; */
+  color: white;
+  font-size: 200px;
+  white-space: nowrap;
+}
+.t15 {
+  /* color: blue; */
+  color: white;
+  font-size: 200px;
+  white-space: nowrap;
+}
+.t16 {
+  /* color: blue; */
+  color: white;
   font-size: 200px;
   white-space: nowrap;
 }
@@ -107,4 +130,80 @@ body {
   100% {
     transform: translate(-100%, 0);
   }
+}
+
+
+.container_other2{
+  overflow: hidden;
+  display: flex;
+  /* Fonctionne avec toutes les tailles */
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  /* pour rotate on enlève le translate et on rajoute le rotate */
+  /* transform:  rotate(90deg)*/
+}
+
+.txt3 {
+  white-space: nowrap;
+  font-size: 200px;
+  animation: last 3s linear infinite;
+}
+
+.t121 {
+  /* color: red; */
+  color: red;
+  font-size: 200px;
+  white-space: nowrap;
+}
+.t122 {
+  /* color: blue; */
+  color: red;
+  font-size: 200px;
+  white-space: nowrap;
+}
+.t123 {
+  /* color: red; */
+  color: red;
+  font-size: 200px;
+  white-space: nowrap;
+}
+.t124 {
+  /* color: blue; */
+  color: red;
+  font-size: 200px;
+  white-space: nowrap;
+}
+.t125 {
+  /* color: red; */
+  color: red;
+  font-size: 200px;
+  white-space: nowrap;
+}
+.t126 {
+  /* color: red; */
+  color: red;
+  font-size: 200px;
+  white-space: nowrap;
+}
+
+@keyframes last {
+  0%{
+  transform: translate(-100%, 0);
+  }
+  100% {
+    transform: translate(0%, 0);
+  }
+}
+
+ .coffee_button_div{
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+.buy_me{
+  width: 200px;
+  height: 60px;
 }
