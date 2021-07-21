@@ -15,9 +15,7 @@
 }
 
 .waiter{
-
-
-    font-size: 10vh;
+    font-size: 50vh;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -29,3 +27,84 @@
     font-size: 2.5em;
     font-weight: 900;
   }
+
+  *,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    height: 100vh;
+}
+
+.container {
+  overflow: hidden;
+  display: flex;
+  /* Fonctionne avec toutes les tailles */
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  /* pour rotate on enlève le translate et on rajoute le rotate */
+  /* transform:  rotate(90deg); */
+}
+.txt {
+  white-space: nowrap;
+  font-size: 200px;
+  animation: scrollTxt 4s linear infinite;
+}
+
+.t1 {
+  /* color: red; */
+}
+.t2 {
+  /* color: blue; */
+}
+@keyframes scrollTxt {
+  0%{
+    transform: translate(-100%, 0);
+  }
+  100% {
+    transform: translate(0%, 0);
+  }
+}
+
+.container_other{
+  overflow: hidden;
+  display: flex;
+  /* Fonctionne avec toutes les tailles */
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50%);
+  /* pour rotate on enlève le translate et on rajoute le rotate */
+  /* transform:  rotate(90deg); */
+}
+
+.txt {
+  white-space: nowrap;
+  font-size: 200px;
+  animation: test 4s linear infinite;
+}
+
+.t3 {
+  /* color: red; */
+  font-size: 200px;
+  white-space: nowrap;
+  animation: test 4s linear infinite;
+}
+.t4 {
+  /* color: blue; */
+  font-size: 200px;
+  white-space: nowrap;
+}
+@keyframes test {
+  0%{
+    transform: translate(0%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
